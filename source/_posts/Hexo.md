@@ -18,6 +18,8 @@ hexo new page about
 
 This generates a folder `about/` `under source/` 
 
+<!--more-->
+
 ### Edit `index.md`
 
 ```md
@@ -103,3 +105,45 @@ menu:
 
 ```
 
+## 404
+
+create 404.html under *`source`*
+
+
+!!!Note
+
+add below at the beginning
+
+```
+layout: false
+title: "404"
+---
+```
+
+## local search
+
+### install
+
+```bash
+$ npm install hexo-generator-search --save
+```
+
+### config
+
+configure this plugin in root *`_config.yml.`*
+
+```yml
+search:
+  path: search.xml
+  field: post
+```
+
+- **path** - file path. Default is search.xml .
+
+- **field** - the search scope you want to search, you can chose:
+
+  * post (Default) - will only covers all the posts of your blog.
+ 
+  * page - will only covers all the pages of your blog.
+
+  * all - will covers all the posts and pages of your blog.

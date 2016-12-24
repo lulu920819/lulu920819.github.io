@@ -76,3 +76,9 @@ deploy:
 
 # avatar
 avatar: /uploads/avatar.jpg
+
+
+# local search
+search:
+  path: search.xml
+  field: post
