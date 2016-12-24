@@ -38,12 +38,12 @@ seo: false
 menu:
   home: /
   # categories: /categories
-  guide: /categories/guide
+  # guide: /categories/guide
   about: /about
   archives: /archives
-  # tags: /tags
+  tags: /tags
   # sitemap: /sitemap.xml
-  # commonweal: /404.html
+  commonweal: /404.html
 
 
 # Enable/Disable menu icons.
@@ -134,8 +134,9 @@ font:
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
+social:
   #LinkLabel: Link
+  GitHub: https://github.com/lulu920819
 
 
 # Social Links Icons
@@ -182,9 +183,9 @@ sidebar:
   #  - always  expand for all pages automatically
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggler.
-  # display: post
+  display: post
   #display: always
-  display: hide
+  # display: hide
   #display: remove
 
 
