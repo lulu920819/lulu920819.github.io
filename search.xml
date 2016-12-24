@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+    
+    <entry>
+      <title><![CDATA[Hello World]]></title>
+      <url>http://yoursite.com/2016/12/24/hello-world/</url>
+      <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<a id="more"></a>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Hexo]]></title>
+      <url>http://yoursite.com/2016/12/23/Hexo/</url>
+      <content type="html"><![CDATA[<h2 id="New-Page-–About"><a href="#New-Page-–About" class="headerlink" title="New Page –About"></a>New Page –About</h2><h3 id="create-about"><a href="#create-about" class="headerlink" title="create about"></a>create <code>about</code></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo new page about</div></pre></td></tr></table></figure>
+<p>This generates a folder <code>about/</code> <code>under source/</code> </p>
+<a id="more"></a>
+<h3 id="Edit-index-md"><a href="#Edit-index-md" class="headerlink" title="Edit index.md"></a>Edit <code>index.md</code></h3><figure class="highlight md"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">Hi</div><div class="line"></div><div class="line">This is the note on everything</div><div class="line"></div><div class="line">I mean everything</div><div class="line"></div><div class="line">I mean maybe</div></pre></td></tr></table></figure>
+<h3 id="add-to-menu"><a href="#add-to-menu" class="headerlink" title="add to menu"></a>add to menu</h3><p><span id="add"><br>modify the file <code>_config.yml</code> under the <code>theme/</code><br></span></p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># make it visible</span></div><div class="line"><span class="attr">menu:</span></div><div class="line"><span class="attr">  home:</span> /</div><div class="line"><span class="attr">  about:</span> /about</div><div class="line"></div><div class="line"><span class="comment"># change the icons</span></div><div class="line"><span class="attr">menu_icons:</span></div><div class="line"><span class="attr">  enable:</span> <span class="literal">true</span></div><div class="line">  <span class="comment">#KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome</span></div><div class="line"><span class="attr">  home:</span> home</div><div class="line"><span class="attr">  about:</span> user</div></pre></td></tr></table></figure>
+<h2 id="display-one-categoires"><a href="#display-one-categoires" class="headerlink" title="display one categoires"></a>display one categoires</h2><p>for example guide</p>
+<h3 id="create-categories"><a href="#create-categories" class="headerlink" title="create categories"></a>create <code>categories</code></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo new page categories</div></pre></td></tr></table></figure>
+<p>This generates a folder <code>categories/</code> <code>under source/</code> </p>
+<h3 id="categories-post"><a href="#categories-post" class="headerlink" title="categories post"></a>categories post</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">---</div><div class="line">title: Hello World</div><div class="line">categories: guide</div><div class="line">tags: </div><div class="line">	- guide </div><div class="line">	- hexo</div><div class="line">---</div></pre></td></tr></table></figure>
+<h3 id="add-to-menu-1"><a href="#add-to-menu-1" class="headerlink" title="add to menu"></a>add to menu</h3><p>modify the file <code>_config.yml</code> under the <code>theme/</code><br><a href="#add">as describe up</a></p>
+<h3 id="change-languages-file"><a href="#change-languages-file" class="headerlink" title="change languages file"></a>change languages file</h3><p><code>themes/next/languages/zh-Hans.yml</code></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">menu:</div><div class="line">  home: 首页</div><div class="line">  archives: 归档</div><div class="line">  categories: 分类</div><div class="line">  schedule: 日程</div><div class="line">  tags: 标签</div><div class="line">  about: 关于</div><div class="line">  search: 搜索</div><div class="line">  commonweal: 公益404</div><div class="line">  guide: 教程</div></pre></td></tr></table></figure>
+<h2 id="404"><a href="#404" class="headerlink" title="404"></a>404</h2><p>create 404.html under <em><code>source</code></em></p>
+<p>!!!Note</p>
+<p>add below at the beginning</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">layout: false</div><div class="line">title: &quot;404&quot;</div><div class="line">---</div></pre></td></tr></table></figure>
+<h2 id="local-search"><a href="#local-search" class="headerlink" title="local search"></a>local search</h2><h3 id="install"><a href="#install" class="headerlink" title="install"></a>install</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-generator-search --save</div></pre></td></tr></table></figure>
+<h3 id="config"><a href="#config" class="headerlink" title="config"></a>config</h3><p>configure this plugin in root <em><code>_config.yml.</code></em></p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="attr">search:</span></div><div class="line"><span class="attr">  path:</span> search.xml</div><div class="line"><span class="attr">  field:</span> post</div></pre></td></tr></table></figure>
+<ul>
+<li><p><strong>path</strong> - file path. Default is search.xml .</p>
+</li>
+<li><p><strong>field</strong> - the search scope you want to search, you can chose:</p>
+<ul>
+<li><p>post (Default) - will only covers all the posts of your blog.</p>
+</li>
+<li><p>page - will only covers all the pages of your blog.</p>
+</li>
+<li><p>all - will covers all the posts and pages of your blog.</p>
+</li>
+</ul>
+</li>
+</ul>
+]]></content>
+    </entry>
+    
+  
+  
+</search>
